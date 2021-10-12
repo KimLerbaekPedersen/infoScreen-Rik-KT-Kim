@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>InfoScreen</title>
+</head>
+<body>
+
+<section class="video-bg">
+   <video width="320" height="240" autoplay loop muted>
+    <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
+</section> 
+ 
+<main class="container">
+    <section class="left-side">
+        <aside class="clock-widget">
+            <div class="fill">
+                <div class="reference"></div>
+                <div class="clock" id="utility-clock">
+                  <div class="centre">
+                    <div class="dynamic"></div>
+                    <div class="expand round circle-1"></div>
+                    <div class="anchor hour">
+                      <div class="element thin-hand"></div>
+                      <div class="element fat-hand"></div>
+                    </div>
+                    <div class="anchor minute">
+                      <div class="element thin-hand"></div>
+                      <div class="element fat-hand minute-hand"></div>
+                    </div>
+                    <div class="anchor second">
+                      <div class="element second-hand"></div>
+                    </div>
+                    <div class="expand round circle-2"></div>
+                    <div class="expand round circle-3"></div>
+                  </div>
+                </div>
+              </div>
+        </aside>
+
+        <section class="weather">
+          <a class="weatherwidget-io" href="https://forecast7.com/da/56d459d40/viborg/" data-label_1="VIBORG" data-label_2="WEATHER" >VIBORG WEATHER</a>
+        </section>
+    </section>
+
+    <section class="info">
+          <!-- SLIDESHOW START -->
+            <div class="mySlides fade">
+              <div class="slider-text">Suverænt. Høj. Standard.</div>
+              <img src="assets/img/iPhone-13.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/img/iphone-12-og-202104.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/img/gsmarena_003.jpg" style="width:100%">
+            </div>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+        <!-- SLIDESHOW END -->
+    </section>
+
+    <section class="news-bar">
+
+    </section>
+</main>
+
+<script src="assets/js/index.js"></script>
+</body>
+</html>
